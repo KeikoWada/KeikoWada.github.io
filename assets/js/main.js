@@ -37,9 +37,6 @@
 			$body.addClass('is-scroll');
 
 		}
-$('#p1').on('click', function () {
-	location.href = "https://github.com/KeikoWada/game-project")
-}
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -147,6 +144,9 @@ $('#p1').on('click', function () {
 
 			}
 
+			$('.email').on('submit', function(){
+				mailto('mailto:kwaddy71385@gmail.com')
+			})
 		// Poptrox.
 			$('.gallery').poptrox({
 				useBodyOverflow: false,
