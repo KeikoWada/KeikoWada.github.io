@@ -38,6 +38,10 @@
 
 		}
 
+		$('#first').click(function () {   
+    doc.save('keiko.pdf');
+});
+
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
 
