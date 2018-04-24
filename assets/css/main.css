@@ -1467,12 +1467,6 @@
 		border: 0;
 	}
 
-	#bucket {
-		display: inline-block;
-		border: 0;
-		object-fit: fill;
-	}
-
 		.image img {
 			display: block;
 			width: 100%;
@@ -1504,9 +1498,6 @@
 				width: auto;
 			}
 
-			.devicon {
-  			font-size: 2.5em
-			}
 /* List */
 
 	ul.default {
