@@ -1848,9 +1848,10 @@
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
+				background: #9a9696;
 				padding: 2em 3em 2em 3em;
 				margin: 0;
+				opacity: 0.9;
 			}
 
 				.box.style2 header p {
@@ -1907,6 +1908,9 @@
 		text-decoration: none;
 	}
 
+.logo {
+	font-size: 4rem;
+}
 		.icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
