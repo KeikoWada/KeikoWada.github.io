@@ -1422,7 +1422,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 1em;
+		margin-bottom: 0em;
 	}
 
 	header {
@@ -1907,6 +1907,11 @@
 	.icon {
 		text-decoration: none;
 	}
+
+.intro-icons {
+	font-size:80%;
+	padding-top: 50px;
+}
 
 .logo {
 	font-size: 4rem;
